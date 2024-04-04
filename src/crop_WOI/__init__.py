@@ -23,7 +23,7 @@ def crop_WOI(img, x, y, xx, yy):
     info += f"y_coordinate={y}\t"
     info += f"xx_coordinate={xx}\t"
     info += f"yy_coordinate={yy}"
-    WOI = img[y:yy, x:xx, ...]
+    WOI = img[y:yy, x:xx]
     #print(np.max(WOI))
     return WOI, info
 
